@@ -7,14 +7,14 @@ The following actions can be performed
 
 ```
 localhost:8080 - GET: Index, view all Vending Machines in the system with all of the data
-					POST: Add a new vending machine to the system
+                 POST: Add a new vending machine to the system
 ```
 ```
 localhost:8080/{Vending Machine Name} - GET: View the details for a specific vending machine
 ```
 ```
 localhost:8080/{Vending Machine Name}/coins - GET: View all the coins that vending machine currently has stored
-												POST: Put a coin in the machine. (Amount is ignored as you can only put in one coin at a time)
+                                              POST: Put a coin in the machine. (Amount is ignored as you can only put in one coin at a time)
 ```
 ```
 localhost:8080/{Vending Machine Name}/coins/{coin value} - GET: View how many of a specific value coin that machine has
@@ -24,7 +24,7 @@ localhost:8080/{Vending Machine Name}/coins/refund - GET: Returns you coins of e
 ```
 ```
 localhost:8080/{Vending Machine Name}/products/ - GET: List all the products for that machine
-													POST: Add a new product to the vending machine
+                                                  POST: Add a new product to the vending machine
 ```
 ```
 localhost:8080/{Vending Machine Name}/products/{product id} - GET: View the details for a specific product
